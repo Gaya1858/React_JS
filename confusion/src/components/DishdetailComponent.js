@@ -2,8 +2,6 @@ import React, {Component} from "react";
 import {Card, CardBody, CardImg, CardImgOverlay, CardText, CardTitle} from 'reactstrap';
 
 
-
-
     function RenderDish({dish}){
         if(dish == null){
             return(<div></div>);
@@ -51,7 +49,6 @@ import {Card, CardBody, CardImg, CardImgOverlay, CardText, CardTitle} from 'reac
     }
 
     const DishDetail = (props)=>{
-
         if (props.dish == null) {
             return (<div></div>);
         }
